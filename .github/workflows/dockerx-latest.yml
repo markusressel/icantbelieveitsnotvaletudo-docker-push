@@ -42,7 +42,7 @@ jobs:
       - name: Prepare
         id: prepare
         run: |
-          DOCKER_IMAGE=markusressel/ICantBelieveItsNotValetudo
+          DOCKER_IMAGE=markusressel/icantbelieveitsnotvaletudo
           # compare with support in base image: https://hub.docker.com/_/python
           # orjson only supports 64bit variants, see: https://github.com/ijl/orjson
           DOCKER_PLATFORMS=linux/amd64,linux/arm64
