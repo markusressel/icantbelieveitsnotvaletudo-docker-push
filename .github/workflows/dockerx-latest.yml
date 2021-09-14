@@ -18,7 +18,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        repository: https://github.com/Hypfer/ICantBelieveItsNotValetudo.git
+        with:
+          repository: https://github.com/Hypfer/ICantBelieveItsNotValetudo.git
 
       # https://github.com/docker/setup-qemu-action
       - name: Set up QEMU
