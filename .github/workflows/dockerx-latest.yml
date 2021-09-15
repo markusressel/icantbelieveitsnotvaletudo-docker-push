@@ -22,7 +22,7 @@ jobs:
           repository: Hypfer/ICantBelieveItsNotValetudo
 
       - name: apply persistence fix
-	      run: |
+        run: |
           sed -n -i '/.*this\.persist();.*/!p' lib/Configuration.js
 
       # https://github.com/docker/setup-qemu-action
